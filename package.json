@@ -1,0 +1,39 @@
+{
+  "name": "@fxs0819/git-helper",
+  "version": "1.0.0",
+  "description": "基于以下载gitlab文件为核心封装的git api 工具",
+  "scripts": {
+    "e": "ts-node ./example/index.ts",
+    "s": "nodemon ./example/server.js",
+    "lint": "eslint src --fix --ext .ts",
+    "build": "rimraf lib && tsc --build",
+    "publish": "npm publish --access public"
+  },
+  "dependencies": {
+    "fs-extra": "^10.1.0",
+    "superagent": "^8.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^18.7.16",
+    "@typescript-eslint/eslint-plugin": "^5.30.5",
+    "@typescript-eslint/parser": "^5.30.5",
+    "eslint": "^8.19.0",
+    "ts-node": "^10.8.2",
+    "typescript": "^4.7.4"
+  },
+  "main": "./lib/index.js",
+  "types": "./lib/index.d.ts",
+  "files": [
+    "lib/"
+  ],
+  "author": "fg",
+  "repository": "https://github.com/fuxueshuang/git-helper.git",
+  "keywords": [
+    "git",
+    "github",
+    "gitlab",
+    "gitlab api",
+    "file"
+  ],
+  "license": "ISC"
+}
