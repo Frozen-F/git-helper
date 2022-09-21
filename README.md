@@ -54,3 +54,5 @@ const f = await h.readFile('package.json');
 ## License
 
 **MIT**
+
+[GitLab REST API](https://docs.gitlab.com/ee/development/documentation/restful_api_styleguide.html#curl-commands)
